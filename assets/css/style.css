@@ -62,7 +62,7 @@
 
 /*GLOBAL*/
 * {
-    font-family: Ranille;
+    font-family: Cambria;
     text-decoration: none;
     box-sizing: border-box;
     padding: 0;
@@ -196,7 +196,7 @@ body{
   width: auto;
   height: 60px;
   
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -222,7 +222,7 @@ body{
   left: 0px;
   top: 88.5px;
   
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -242,7 +242,7 @@ body{
   left: 0px;
   top: 88.5px;
   
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -297,9 +297,9 @@ body{
   left: 0px;
   top: 0px;
   
-  font-family: Ranille;
+  font-family: Cambria;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 150%;
   
@@ -320,7 +320,7 @@ body{
   left: 0px;
   top: 37px;
     
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -392,9 +392,9 @@ body{
   width: 30%;
 }
 #company-text{
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 13px;
   line-height: 150%;
   letter-spacing: 0.295em;
@@ -519,9 +519,9 @@ body{
   margin: 32px 0px;
 }
 #proj-name{
-  font-family: Ranille;
+  font-family: Cambria;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 32px;
   line-height: 36px;
   color: #000000; 
@@ -556,7 +556,7 @@ a.und:hover:before {
   width: 100%;
 }
 #proj-type{
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -568,7 +568,7 @@ a.und:hover:before {
   margin: 10px 0px;
 }
 #proj-para{
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -591,7 +591,7 @@ a.und:hover:before {
   margin: 32px 0px;
 }
 #tags-text{
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -702,10 +702,10 @@ a.und:hover:before {
   margin: 30px 0px;
 }
 #langs-used{
-  font-family: 'Apercu Pro Mono';
+  font-family: 'Helvetica Mono';
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   font-size: 13px;
   line-height: 150%;
   color: #FFFFFF;
@@ -717,7 +717,7 @@ a.und:hover:before {
   margin: 10px 0px;
 }
 #award{
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -751,9 +751,9 @@ a.und:hover:before {
   margin: 5px 0px;
 }
 #code-heading{
-  font-family: Ranille;
+  font-family: Cambria;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 28px;
   line-height: 150%;
   color: #FFFFFF;
@@ -871,7 +871,7 @@ a.und2:hover:before {
   margin: 0px 0px;
 }
 #tiny-text{
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 12.3768px;
@@ -967,12 +967,12 @@ a.und2:hover:before {
   margin: 0px 30px 0px 0px;
 }
 #lets{
-  width: 493px;
+  width: 450px;
   height: 100px;
 
-  font-family: Ranille;
+  font-family: Cambria;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 36px;
   line-height: 124.4%;
  
@@ -981,9 +981,9 @@ a.und2:hover:before {
   flex-grow: 0;
 }
 #foot-text{
-  font-family: Ranille;
+  font-family: Cambria;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 17px;
   line-height: 150%;
   
@@ -1011,7 +1011,7 @@ a.und2:hover:before {
   margin: 0px 0px;
 }
 #foot-pro{
-  font-family: Apercu Pro;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1032,7 +1032,7 @@ a.und2:hover:before {
   padding-top: 25px;
 }
 #last-phrase{
-  font-family: Ranille;
+  font-family: Cambria;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -1120,7 +1120,7 @@ a.und2:hover:before {
   left: 692px;
   top: 220px;
   
-  font-family: Ranille;
+  font-family: Cambria;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -1140,7 +1140,7 @@ a.und2:hover:before {
   top: 300px;
   opacity: 0.7;
   
-  font-family: "Apercu Pro Light";
+  font-family: "Helvetica Light";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -1201,7 +1201,7 @@ a.und2:hover:before {
 }
 #vid-caption{
   padding-top:20px;
-  font-family: "Apercu Pro Light";
+  font-family: "Helvetica Light";
   font-size: 14px;
   line-height: 170%;
 }
