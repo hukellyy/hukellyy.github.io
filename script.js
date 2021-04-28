@@ -30,7 +30,7 @@ $(window).on("load",function() {
 /* CAROUSEL */
 
 var index = 0; 
-var videos = ["one", "two", "three", "four"]
+var videos = ["one", "two", "three", "four"];
 
 var slides = document.getElementsByClassName("slides"); 
 var nextArrow = document.getElementById("next");
@@ -57,20 +57,24 @@ function showSlides(x) {
 		slides[i].style.display = "none"; 
 		dotArray[i].className = "dots";  
 	}
-	
 	slides[index].style.display = "block";
 	dotArray[index].className += " activeDot"; 
 	place.innerHTML = videos[index]; 
 }
-
 nextArrow.onclick = function() {
 	index += 1; 
 	showSlides(index); 
 } 
-
 previousArrow.onclick = function() {
 	index -= 1; 
 	showSlides(index); 
 } 
-
 dotArray[0].onclick = showSlides(1); 
+
+function createDots() {
+	for (i=0; i<slides.length; i++) {
+	var dot = document.createElement("span");
+	dot.className = "dots"; 
+	dotsContainer.appendChild(dot); 
+	}
+}
