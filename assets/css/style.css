@@ -49,12 +49,12 @@
 
 @font-face {
   font-family: 'Ranille';
-    src: url('..fonts/RanilleNormal-Regular.eot'); /* IE9 Compat Modes */
-    src: url('..fonts/RanilleNormal-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
-    src:  url('..fonts/RanilleNormal-Regular.woff2') format('woff2'), /* Super Modern Browsers */;
-    src:url('..fonts/RanilleNormal-Regular.woff') format('woff'), /* Pretty Modern Browsers */;
-    src:url('..fonts/RanilleNormal-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */;
-    src:url('..fonts/RanilleNormal-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */;
+    src: url('../fonts/RanilleNormal-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RanilleNormal-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
+    src:  url('../fonts/RanilleNormal-Regular.woff2') format('woff2'), /* Super Modern Browsers */;
+    src:url('../fonts/RanilleNormal-Regular.woff') format('woff'), /* Pretty Modern Browsers */;
+    src:url('../fonts/RanilleNormal-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */;
+    src:url('../fonts/RanilleNormal-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */;
     font-weight: 400;
     font-style: normal;
 }
