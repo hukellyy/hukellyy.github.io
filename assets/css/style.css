@@ -1,48 +1,48 @@
 /* FONTS */
 @font-face {
   font-family: 'Apercu Pro';
-    src: url('fonts/ApercuPro-Regular.eot'); /* IE9 Compat Modes */
-    src: url('fonts/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
-    src: url('fonts/ApercuPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */;
-    src: url('fonts/ApercuPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */;
-    src: url('fonts/ApercuPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */;
-    src: url('fonts/ApercuPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */;
+    src: url('../fonts/ApercuPro-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
+    src: url('../fonts/ApercuPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */;
+    src: url('../fonts/ApercuPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */;
+    src: url('../fonts/ApercuPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */;
+    src: url('../fonts/ApercuPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */;
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
   font-family: 'Apercu Pro Mono';
-    src: url('fonts/ApercuPro-Mono.eot'); /* IE9 Compat Modes */
-    src: url('fonts/ApercuPro-Mono.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
-    src: url('fonts/ApercuPro-Mono.woff2') format('woff2'), /* Super Modern Browsers */;
-    src: url('fonts/ApercuPro-Mono.woff') format('woff'), /* Pretty Modern Browsers */;
-    src: url('fonts/ApercuPro-Mono.ttf')  format('truetype'), /* Safari, Android, iOS */;
-    src: url('fonts/ApercuPro-Mono.svg#svgFontName') format('svg'); /* Legacy iOS */;
+    src: url('../fonts/ApercuPro-Mono.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ApercuPro-Mono.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
+    src: url('../fonts/ApercuPro-Mono.woff2') format('woff2'), /* Super Modern Browsers */;
+    src: url('../fonts/ApercuPro-Mono.woff') format('woff'), /* Pretty Modern Browsers */;
+    src: url('../fonts/ApercuPro-Mono.ttf')  format('truetype'), /* Safari, Android, iOS */;
+    src: url('../fonts/ApercuPro-Mono.svg#svgFontName') format('svg'); /* Legacy iOS */;
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
   font-family: 'Apercu Pro Light';
-    src: url('fonts/ApercuPro-Light.eot'); /* IE9 Compat Modes */
-    src: url('fonts/ApercuPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
-    src: url('fonts/ApercuPro-Light.woff2') format('woff2'), /* Super Modern Browsers */;
-    src:  url('fonts/ApercuPro-Light.woff') format('woff'), /* Pretty Modern Browsers */;
-    src:  url('fonts/ApercuPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */;
-    src:  url('fonts/ApercuPro-Light.svg#svgFontName') format('svg'); /* Legacy iOS */;
+    src: url('../fonts/ApercuPro-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ApercuPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
+    src: url('../fonts/ApercuPro-Light.woff2') format('woff2'), /* Super Modern Browsers */;
+    src:  url('../fonts/ApercuPro-Light.woff') format('woff'), /* Pretty Modern Browsers */;
+    src:  url('../fonts/ApercuPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */;
+    src:  url('../fonts/ApercuPro-Light.svg#svgFontName') format('svg'); /* Legacy iOS */;
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
   font-family: 'Apercu Pro Bold';
-    src: url('fonts/ApercuPro-Bold.eot'); /* IE9 Compat Modes */
-    src: url('fonts/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
-    src:   url('fonts/ApercuPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */;
-    src:  url('fonts/ApercuPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */;
-    src:url('fonts/ApercuPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */;
-    src:url('fonts/ApercuPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */;
+    src: url('../fonts/ApercuPro-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
+    src: url('../fonts/ApercuPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */;
+    src: url('../fonts/ApercuPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */;
+    src:url('../fonts/ApercuPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */;
+    src:url('../fonts/ApercuPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */;
     font-weight: 400;
     font-style: normal;
 }
