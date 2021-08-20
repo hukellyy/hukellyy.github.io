@@ -1,6 +1,6 @@
 /* FONTS */
 @font-face {
-  font-family: Apercu Pro;
+  font-family: "Apercu Pro";
     src: url('../fonts/ApercuPro-Regular.eot'); /* IE9 Compat Modes */
     src: url('../fonts/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
     src: url('../fonts/ApercuPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */;
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: Apercu Pro Mono;
+  font-family: "Apercu Pro Mono";
     src: url('../fonts/ApercuPro-Mono.eot'); /* IE9 Compat Modes */
     src: url('../fonts/ApercuPro-Mono.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
     src: url('../fonts/ApercuPro-Mono.woff2') format('woff2'), /* Super Modern Browsers */;
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-  font-family: Apercu Pro Light;
+  font-family: "Apercu Pro Light";
     src: url('../fonts/ApercuPro-Light.eot'); /* IE9 Compat Modes */
     src: url('../fonts/ApercuPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
     src: url('../fonts/ApercuPro-Light.woff2') format('woff2'), /* Super Modern Browsers */;
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: Apercu Pro-Bold;
+  font-family: "Apercu Pro-Bold";
     src: url('../fonts/ApercuPro-Bold.eot'); /* IE9 Compat Modes */
     src: url('../fonts/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
     src: url('../fonts/ApercuPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */;
@@ -48,7 +48,7 @@
 }
 
 @font-face {
-  font-family: Ranille;
+  font-family: "Ranille";
     src: url('../fonts/RanilleNormal-Regular.eot'); /* IE9 Compat Modes */
     src: url('../fonts/RanilleNormal-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */;
     src:  url('../fonts/RanilleNormal-Regular.woff2') format('woff2'), /* Super Modern Browsers */;
@@ -62,7 +62,7 @@
 
 /*GLOBAL*/
 * {
-    font-family: Cambria;
+    font-family: Ranille;
     text-decoration: none;
     box-sizing: border-box;
     padding: 0;
@@ -196,7 +196,7 @@ body{
   width: auto;
   height: 60px;
   
-  font-family: Helvetica;
+  font-family: Ranille;
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -222,7 +222,7 @@ body{
   left: 0px;
   top: 88.5px;
   
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -242,7 +242,7 @@ body{
   left: 0px;
   top: 88.5px;
   
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -297,7 +297,7 @@ body{
   left: 0px;
   top: 0px;
   
-  font-family: Cambria;
+  font-family: Ranille;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -320,7 +320,7 @@ body{
   left: 0px;
   top: 37px;
     
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -392,7 +392,7 @@ body{
   width: 30%;
 }
 #company-text{
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -519,7 +519,7 @@ body{
   margin: 32px 0px;
 }
 #proj-name{
-  font-family: Cambria;
+  font-family: Ranille;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -556,7 +556,7 @@ a.und:hover:before {
   width: 100%;
 }
 #proj-type{
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -568,7 +568,7 @@ a.und:hover:before {
   margin: 10px 0px;
 }
 #proj-para{
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -591,7 +591,7 @@ a.und:hover:before {
   margin: 32px 0px;
 }
 #tags-text{
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -702,7 +702,7 @@ a.und:hover:before {
   margin: 30px 0px;
 }
 #langs-used{
-  font-family: 'Helvetica Mono';
+  font-family: 'Apercu Pro Mono';
   font-style: normal;
   font-weight: 400;
   letter-spacing: 3px;
@@ -717,7 +717,7 @@ a.und:hover:before {
   margin: 10px 0px;
 }
 #award{
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -751,9 +751,8 @@ a.und:hover:before {
   margin: 5px 0px;
 }
 #code-heading{
-  font-family: Cambria;
+  font-family: Ranille;
   font-style: normal;
-  font-weight: bold;
   font-size: 28px;
   line-height: 150%;
   color: #FFFFFF;
@@ -871,7 +870,7 @@ a.und2:hover:before {
   margin: 0px 0px;
 }
 #tiny-text{
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: 500;
   font-size: 12.3768px;
@@ -970,9 +969,8 @@ a.und2:hover:before {
   width: 450px;
   height: 100px;
 
-  font-family: Cambria;
+  font-family: Ranille;
   font-style: normal;
-  font-weight: bold;
   font-size: 36px;
   line-height: 124.4%;
  
@@ -981,9 +979,8 @@ a.und2:hover:before {
   flex-grow: 0;
 }
 #foot-text{
-  font-family: Cambria;
+  font-family: Ranille;
   font-style: normal;
-  font-weight: bold;
   font-size: 17px;
   line-height: 150%;
   
@@ -1011,7 +1008,7 @@ a.und2:hover:before {
   margin: 0px 0px;
 }
 #foot-pro{
-  font-family: Helvetica;
+  font-family: Apercu Pro;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1032,9 +1029,8 @@ a.und2:hover:before {
   padding-top: 25px;
 }
 #last-phrase{
-  font-family: Cambria;
+  font-family: Ranille;
   font-style: normal;
-  font-weight: normal;
   font-size: 13px;
   line-height: 150%;
 
@@ -1120,7 +1116,7 @@ a.und2:hover:before {
   left: 692px;
   top: 220px;
   
-  font-family: Cambria;
+  font-family: Ranille;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -1140,7 +1136,7 @@ a.und2:hover:before {
   top: 300px;
   opacity: 0.7;
   
-  font-family: "Helvetica Light";
+  font-family: "Apercu Pro Light";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -1201,7 +1197,7 @@ a.und2:hover:before {
 }
 #vid-caption{
   padding-top:20px;
-  font-family: "Helvetica Light";
+  font-family: "Apercu Pro Light";
   font-size: 14px;
   line-height: 170%;
 }
