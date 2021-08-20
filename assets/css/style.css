@@ -73,21 +73,69 @@ body{
     margin: 0px;
     overflow-x: hidden;
 }
-.h2{
-  color: white;
-  font-family: Arial;
+h2{
+  color: black;
+  font-family: Apercu Pro;
+  font-size: 18px;
 }
 
 .header-text{
   animation: transitionIn 1.25s;
   animation-delay: 0s;
 }
-
+img{
+  margin: 0px;
+}
+#selected{
+  padding-left: 30px;
+}
+#selected-text {
+  width: 100%; 
+  border-bottom: 1.5px solid rgb(39, 39, 39);
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  padding-left: 30px;
+} 
+#dark-selected-text {
+  width: 100%; 
+  border-bottom: 1.5px solid #fff;
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  padding-left: 30px;
+} 
+#selected-text span { 
+  font-family: Apercu Pro;
+   background:#F4F5F7; 
+   padding:0 10px; 
+}
+#dark-selected-text span { 
+  font-family: Apercu Pro;
+  color: #fff;
+   background:#0D0D0D; 
+   padding:0 10px; 
+}
+#featured{
+  padding-left:50px;
+  font-size: 36px;
+  background-image: linear-gradient(to right, #B9553F, #9b1d75);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  background-size: 100%;
+}
+#featured-blue{
+  padding-left: 50px;
+  font-size: 36px;
+  background-image: linear-gradient(to right, #6e34db, #2F36E9);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  background-size: 100%;
+}
 /*NAV*/
   .navbar {
     font-size: 14px;
-    background: #000;
-    padding-bottom: 10px;
+    padding-top: 40px;
     width: 100%;
     position: fixed;
     z-index: 9999;
@@ -104,9 +152,8 @@ body{
   #nav-menu{
     position: relative;
     display: flex;
-    flex-direction: column;
-    left: 60px;
-    top: 20px;
+    flex-direction: row;
+    top: 40px;
   }
   .main-nav {
     list-style-type: none;
@@ -115,7 +162,6 @@ body{
   .nav-links{
       color: #fff;
       height: 20px;
-      margin-top:10px;
       opacity: 0.8;
       transition-timing-function: ease-in-out;
       transition-duration: 200ms;
@@ -138,7 +184,8 @@ body{
   opacity: 1;
 }
   .logo {
-    height: 30px;
+    height: 25px;
+    padding-left: 16px;
   }
   .main-nav li {
     text-align: center;
@@ -161,6 +208,9 @@ body{
   .active {
     display: block;
   }
+  #selected{
+    left: 242px;
+  }
 
 /*SECTIONS*/
 
@@ -168,7 +218,7 @@ body{
 
 #main{
   background-color: #0D0D0D;
-  height: 800px;
+  height: 820px;
   overflow: hidden;
   width: 1440px;
 }
@@ -183,25 +233,22 @@ body{
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  
   position: absolute;
   width: 877px;
   height: 336px;
   left: 242px;
-  top: 135px;
+  top: 160px;
   z-index:99;
 }
 #kh{
   position: static;
   width: auto;
   height: 60px;
-  
   font-family: Ranille;
   font-style: normal;
-  font-weight: bold;
   font-size: 44px;
   line-height: 60px;
-  background-image: linear-gradient(to right, #B9553F, #3D43D1);
+  background-image: linear-gradient(to right, #B9553F, #1A47E5);
   -webkit-background-clip: text; 
   background-clip: text; 
   color: transparent;
@@ -299,7 +346,6 @@ body{
   
   font-family: Ranille;
   font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 150%;
   
@@ -361,19 +407,16 @@ body{
 
 #design-projects{
   background-color: #F4F5F7;
-  height: 1400px;
-  width: 1440px;
+  height: 1590px;
+  width: 1540px;
   z-index: 999;
   margin: auto;
-  padding-left: 220px;
-  padding-right: 250px;
-  padding-bottom: 100px;
+  padding: 80px 220px 120px 200px
 }
 .all-projects{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   position: absolute;
 }
 #company-tag-netflix{
@@ -521,7 +564,6 @@ body{
 #proj-name{
   font-family: Ranille;
   font-style: normal;
-  font-weight: bold;
   font-size: 32px;
   line-height: 36px;
   color: #000000; 
@@ -604,10 +646,9 @@ a.und:hover:before {
 
 #code-projects{
   background-color: #0D0D0D;
-  height: 1380px;
-  width: 1440px;
-  margin: auto;
+  height: 1300px;
   overflow: hidden;
+  padding: 80px 200px 80px 200px
 }
 #curve-blob{
   position: absolute;
@@ -627,38 +668,28 @@ a.und:hover:before {
   clip-path: inset(10px 20px 30px 50px);
   overflow: hidden;
 }
-
 #code-projs{
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 10px 250px 0px 220px;
+  margin: 0 auto;
+  padding-top:20px;
 }
 #top{
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  
+  align-items: flex-start;  
   position: static;
-  width: 993px;
   height: 440px;
-  left: 0px;
-  top: 0px;
-
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 80px 0px 60px 0px;
+  margin: 40px 0px 80px 0px;
 }
 #bottom{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  
   position: static;
-  width: 993px;
   height: 440px;
   left: 0px;
   top: 560px;
@@ -676,7 +707,6 @@ a.und:hover:before {
   position: static;
   width: 454px;
   height: 440px;
-  left: 539px;
   top: 0px;
 
   flex: none;
@@ -756,7 +786,6 @@ a.und:hover:before {
   font-size: 28px;
   line-height: 150%;
   color: #FFFFFF;
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1277,7 +1306,7 @@ a.und2:hover:before {
 /* AURORA */
 #lightings
 {
-  top: 740px;
+  top: 800px;
 	position: relative;
 	width: 100%;
   z-index: 0;
